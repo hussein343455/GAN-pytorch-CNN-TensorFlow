@@ -1,3 +1,5 @@
+nn.ConvTranspose2d(in_channels, out_channels, kernel_size=3, stride=2, padding=0) 
+
 H_in = 5
 stride = 2
 kernel_size=3
