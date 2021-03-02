@@ -1,8 +1,11 @@
 nn.ConvTranspose2d(in_channels, out_channels, kernel_size=3, stride=2, padding=0) 
 
-H_in = 5
+#the height of the input in case it is a noise vector a (generator) it will be 1
+H_in = 5 
+
 stride = 2
 kernel_size=3
+
 padding=0
 output_padding=0
 dilation=1
