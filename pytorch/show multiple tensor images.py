@@ -1,4 +1,4 @@
-def show_tensor_images(image_tensor, num_images=25, size=(3, 28, 64)):
+def show_tensor_images(image_tensor, num_images=25):
 
     image_tensor = (image_tensor + 1) / 2
     image_unflat = image_tensor.detach()
